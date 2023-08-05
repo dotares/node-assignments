@@ -15,7 +15,7 @@ const handleRoutes = (req, res) => {
   } else if (url === "/users") {
     res.write("<html>");
     res.write("<head>");
-    res.write("<title>Assignment server</title>");
+    res.write("<title>Assignment users</title>");
     res.write("</head>");
     res.write("<body>");
     res.write("<h1>Users page</h1>");
