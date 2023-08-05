@@ -7,6 +7,9 @@ const handleRoutes = (req, res) => {
     res.write("</head>");
     res.write("<body>");
     res.write("<h1>Hello from node js, welcome to my assignment page</h1>");
+    res.write(
+      "<form method='post' action='/create-user'><input placeholder='enter username' /><button>submit</button></form>"
+    );
     res.write("</body>");
     res.write("</html>");
   } else if (url === "/users") {
