@@ -22,6 +22,16 @@ const handleRoutes = (req, res) => {
     res.write("<ol><li>josh</li><li>john</li><li>joe</li></ol>");
     res.write("</body>");
     res.write("</html>");
+  } else if (url === "/create-user") {
+    res.write("<html>");
+    res.write("<head>");
+    res.write("<title>Assignment create user route</title>");
+    res.write("</head>");
+    res.write("<body>");
+    res.write("<h1>This is the create user page</h1>");
+    res.write("</body>");
+    res.write("</html>");
+    console.log(req);
   }
 };
 
